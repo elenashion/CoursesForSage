@@ -19,10 +19,3 @@ dependencies {
     testImplementation('junit:junit:4.+')
 
 }
-
-/*jar {
-    manifest {
-        attributes('Main-Class': 'EdgeOfLuckMain.java')
-    }
-    from configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) }
-}*/
